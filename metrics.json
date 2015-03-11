@@ -10,7 +10,7 @@
             "name": "WMI_PERCENT_PROCESSOR_TIME",
             "unit": "number"
         },
-		{
+        {
             "defaultAggregate": "SUM",
             "defaultResolutionMS": null,
             "description": "Percentage of the time the selected physical disks are busy servicing read or write requests",
@@ -20,7 +20,7 @@
             "name": "WMI_PERCENT_DISKS_TIME",
             "unit": "number"
         },
-		{
+        {
             "defaultAggregate": "SUM",
             "defaultResolutionMS": null,
             "description": "Amount of memory immediately available for allocation to a process or for system use",
@@ -30,7 +30,7 @@
             "name": "WMI_ALLOCATION_AVAILABLE_BYTES",
             "unit": "number"
         },
-		{
+        {
             "defaultAggregate": "MAX",
             "defaultResolutionMS": null,
             "description": "A high rate of memory operations involving disk swap are symptoms of memory shortage and affects system performance",
@@ -40,7 +40,7 @@
             "name": "WMI_MEMORY_SWAP_RATE",
             "unit": "number"
         },
-		{
+        {
             "defaultAggregate": "SUM",
             "defaultResolutionMS": null,
             "description": "FreeSpace is the available storage space in bytes on the specified logical disk",
@@ -50,7 +50,7 @@
             "name": "WMI_FREE_DISKS_SPACE",
             "unit": "number"
         },
-		{
+        {
             "defaultAggregate": "AVG",
             "defaultResolutionMS": null,
             "description": "BytesReceivedPersec are the current transmission rates for the specified adapter",
@@ -60,7 +60,7 @@
             "name": "WMI_NETWORK_BYTES_RECEIVED_PERSEC",
             "unit": "number"
         },
-		{
+        {
             "defaultAggregate": "AVG",
             "defaultResolutionMS": null,
             "description": "BytesSentPersec are the current transmission rates for the specified adapter",
@@ -70,7 +70,7 @@
             "name": "WMI_NETWORK_BYTES_SENT_PERSEC",
             "unit": "number"
         },
-		{
+        {
             "defaultAggregate": "SUM",
             "defaultResolutionMS": null,
             "description": "ConnectionEstablished, seen in the code above, is the current number of Established connections, inbound and outbound",
