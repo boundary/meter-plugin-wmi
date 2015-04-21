@@ -1,5 +1,5 @@
-Boundary WMI Plugin
---------------------------
+# Boundary WMI Plugin
+
 Extracts metrics from a WMI instances.
 
 ### Prerequisites
@@ -8,13 +8,10 @@ Extracts metrics from a WMI instances.
 |:----------|:-----:|:-------:|:-------:|:----:|
 | Supported |       |    v    |         |      |
 
+#### Boundary Meter Versions V4.0 Or Later
 
-|  Runtime | node.js | Python | Java | LUA |
-|:---------|:-------:|:------:|:----:|:---:|
-| Required |         |       |       |  +  |
-
-
-- [How to install Luvit (LUA)?](https://luvit.io/) 
+- To install new meter go to Settings->Installation or [see instructons|https://help.boundary.com/hc/en-us/sections/200634331-Installation]. 
+- To upgrade the meter to the latest version - [see instructons|https://help.boundary.com/hc/en-us/articles/201573102-Upgrading-the-Boundary-Meter].
 
 ### Plugin Setup
 
