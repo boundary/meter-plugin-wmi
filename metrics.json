@@ -1,84 +1,66 @@
 {
-    "result": [
-        {
-            "defaultAggregate": "SUM",
-            "defaultResolutionMS": null,
-            "description": "Percentage of the time the processor is busy doing non-idle threads",
-            "displayName": "Percent Processor Time",
-            "displayNameShort": "WMI - Perc Proc Time",
-            "isDisabled": 0,
-            "name": "WMI_PERCENT_PROCESSOR_TIME",
-            "unit": "number"
-        },
-        {
-            "defaultAggregate": "SUM",
-            "defaultResolutionMS": null,
-            "description": "Percentage of the time the selected physical disks are busy servicing read or write requests",
-            "displayName": "Percent Disks Time",
-            "displayNameShort": "WMI - Perc Disks Time",
-            "isDisabled": 0,
-            "name": "WMI_PERCENT_DISKS_TIME",
-            "unit": "number"
-        },
-        {
-            "defaultAggregate": "SUM",
-            "defaultResolutionMS": null,
-            "description": "Amount of memory immediately available for allocation to a process or for system use",
-            "displayName": "Allocation Available Bytes",
-            "displayNameShort": "WMI - Available Bytes",
-            "isDisabled": 0,
-            "name": "WMI_ALLOCATION_AVAILABLE_BYTES",
-            "unit": "number"
-        },
-        {
-            "defaultAggregate": "MAX",
-            "defaultResolutionMS": null,
-            "description": "A high rate of memory operations involving disk swap are symptoms of memory shortage and affects system performance",
-            "displayName": "Swap Memory Rate",
-            "displayNameShort": "WMI - Swap Rate",
-            "isDisabled": 0,
-            "name": "WMI_MEMORY_SWAP_RATE",
-            "unit": "number"
-        },
-        {
-            "defaultAggregate": "SUM",
-            "defaultResolutionMS": null,
-            "description": "FreeSpace is the available storage space in bytes on the specified logical disk",
-            "displayName": "Free space on disks",
-            "displayNameShort": "WMI - disks space",
-            "isDisabled": 0,
-            "name": "WMI_FREE_DISKS_SPACE",
-            "unit": "number"
-        },
-        {
-            "defaultAggregate": "AVG",
-            "defaultResolutionMS": null,
-            "description": "BytesReceivedPersec are the current transmission rates for the specified adapter",
-            "displayName": "Network receiving per second",
-            "displayNameShort": "WMI - network receiving",
-            "isDisabled": 0,
-            "name": "WMI_NETWORK_BYTES_RECEIVED_PERSEC",
-            "unit": "number"
-        },
-        {
-            "defaultAggregate": "AVG",
-            "defaultResolutionMS": null,
-            "description": "BytesSentPersec are the current transmission rates for the specified adapter",
-            "displayName": "Network sending per second",
-            "displayNameShort": "WMI - network sending",
-            "isDisabled": 0,
-            "name": "WMI_NETWORK_BYTES_SENT_PERSEC",
-            "unit": "number"
-        },
-        {
-            "defaultAggregate": "SUM",
-            "defaultResolutionMS": null,
-            "description": "ConnectionEstablished, seen in the code above, is the current number of Established connections, inbound and outbound",
-            "displayName": "TCP/IP Connections",
-            "displayNameShort": "WMI - Connections",
-            "isDisabled": 0,
-            "name": "WMI_CONNECTIONS_ESTABLISHED",
-            "unit": "number"
-        }
-    ]
+  "WMI_ALLOCATION_AVAILABLE_BYTES": {
+    "defaultAggregate": "SUM",
+    "defaultResolutionMS": 1000,
+    "description": "Amount of memory immediately available for allocation to a process or for system use",
+    "displayName": "Allocation Available Bytes",
+    "displayNameShort": "WMI - Available Bytes",
+    "unit": "number"
+  },
+  "WMI_CONNECTIONS_ESTABLISHED": {
+    "defaultAggregate": "SUM",
+    "defaultResolutionMS": 1000,
+    "description": "ConnectionEstablished, seen in the code above, is the current number of Established connections, inbound and outbound",
+    "displayName": "TCP/IP Connections",
+    "displayNameShort": "WMI - Connections",
+    "unit": "number"
+  },
+  "WMI_FREE_DISKS_SPACE": {
+    "defaultAggregate": "SUM",
+    "defaultResolutionMS": 1000,
+    "description": "FreeSpace is the available storage space in bytes on the specified logical disk",
+    "displayName": "Free space on disks",
+    "displayNameShort": "WMI - disks space",
+    "unit": "number"
+  },
+  "WMI_MEMORY_SWAP_RATE": {
+    "defaultAggregate": "MAX",
+    "defaultResolutionMS": 1000,
+    "description": "A high rate of memory operations involving disk swap are symptoms of memory shortage and affects system performance",
+    "displayName": "Swap Memory Rate",
+    "displayNameShort": "WMI - Swap Rate",
+    "unit": "number"
+  },
+  "WMI_NETWORK_BYTES_RECEIVED_PERSEC": {
+    "defaultAggregate": "AVG",
+    "defaultResolutionMS": 1000,
+    "description": "BytesReceivedPersec are the current transmission rates for the specified adapter",
+    "displayName": "Network receiving per second",
+    "displayNameShort": "WMI - network receiving",
+    "unit": "number"
+  },
+  "WMI_NETWORK_BYTES_SENT_PERSEC": {
+    "defaultAggregate": "AVG",
+    "defaultResolutionMS": 1000,
+    "description": "BytesSentPersec are the current transmission rates for the specified adapter",
+    "displayName": "Network sending per second",
+    "displayNameShort": "WMI - network sending",
+    "unit": "number"
+  },
+  "WMI_PERCENT_DISKS_TIME": {
+    "defaultAggregate": "SUM",
+    "defaultResolutionMS": 1000,
+    "description": "Percentage of the time the selected physical disks are busy servicing read or write requests",
+    "displayName": "Percent Disks Time",
+    "displayNameShort": "WMI - Perc Disks Time",
+    "unit": "number"
+  },
+  "WMI_PERCENT_PROCESSOR_TIME": {
+    "defaultAggregate": "SUM",
+    "defaultResolutionMS": 1000,
+    "description": "Percentage of the time the processor is busy doing non-idle threads",
+    "displayName": "Percent Processor Time",
+    "displayNameShort": "WMI - Perc Proc Time",
+    "unit": "number"
+  }
 }
